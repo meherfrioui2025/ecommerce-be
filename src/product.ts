@@ -43,7 +43,7 @@ const mockProducts: Product[] = [
     category: "electronics",
     image:
       "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 4.8,
+    rating: 3,
     reviewCount: 245,
     inStock: true,
     stockCount: 12,
@@ -59,7 +59,7 @@ const mockProducts: Product[] = [
     category: "home",
     image:
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 4.3,
+    rating: 2,
     reviewCount: 67,
     inStock: true,
     stockCount: 31,
@@ -74,7 +74,7 @@ const mockProducts: Product[] = [
     category: "electronics",
     image:
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 4.6,
+    rating: 5,
     reviewCount: 156,
     inStock: true,
     stockCount: 8,
@@ -89,7 +89,7 @@ const mockProducts: Product[] = [
     category: "fashion",
     image:
       "https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 4.9,
+    rating: 3,
     reviewCount: 78,
     inStock: true,
     stockCount: 5,
@@ -105,7 +105,7 @@ const mockProducts: Product[] = [
     category: "fashion",
     image:
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 4.4,
+    rating: 4.0,
     reviewCount: 203,
     inStock: true,
     stockCount: 67,
@@ -137,7 +137,7 @@ const mockProducts: Product[] = [
     category: "electronics",
     image:
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-    rating: 2,
+    rating: 3,
     reviewCount: 128,
     inStock: false,
     stockCount: 0,
@@ -154,7 +154,7 @@ const mockProducts: Product[] = [
     category: "electronics",
     image:
       "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    rating: 2,
+    rating: 4,
     reviewCount: 128,
     inStock: true,
     stockCount: 45,
