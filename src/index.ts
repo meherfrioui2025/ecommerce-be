@@ -1,4 +1,5 @@
-import express from "express";
+import express, { Request, Response } from "express";
+import  { getMockProducts } from "./product.js";
 
 const app = express();
 const PORT = 3000;
@@ -9,6 +10,10 @@ app.get("/", (req, res) => {
 
 app.get("/hello", (req, res) => {
   res.send("Hello world!");
+});
+
+app.get("/products", (_req: Request, res: Response) => {
+  res.json({ data: getMockProducts(100) });
 });
 
 app.listen(PORT, () => {
